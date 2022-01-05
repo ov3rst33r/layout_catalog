@@ -3,10 +3,423 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Catalog</title>
+    <title>Catalog v1.0</title>
     <link rel="stylesheet" href="./styles/main.scss">
   </head>
   <body>
-    <h1>Catalog</h1>
+    <header class="headr">
+      <a href="#home" class="logo">
+        <img src="./images/logo.png" alt="MOYO logo">
+      </a>
+      <nav>
+        <ul class="nav_list">
+          <li class="liItem">
+            <a href="#apple" class="is-active">Apple</a>
+          </li>
+          <li class="liItem">
+            <a href="#samsung" class="link">Samsung</a>
+          </li>
+          <li class="liItem">
+            <a href="#smartphones" class="link">Смартфоны и телефоны</a>
+          </li>
+          <li class="liItem">
+            <a href="#laptops" class="link"
+            data-qa="nav-hover">
+              Ноутбуки и компьютеры
+            </a>
+          </li>
+          <li class="liItem">
+            <a href="#gadgets" class="link">Гаджеты</a>
+          </li>
+          <li class="liItem">
+            <a href="#tablets" class="link">Планшеты</a>
+          </li>
+          <li class="liItem">
+            <a href="#photo" class="link">Фото</a>
+          </li>
+          <li class="liItem">
+            <a href="#video" class="link">Видео</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="catalog">
+      <div class="card" data-qa="card">
+
+        <img
+            class="card__image"
+            src="images\imac.jpeg"
+            alt="iMac 27 inch"
+        >
+  
+        <div class="card__title">
+          <h3 class="titleWrapper">
+            Моноблок APPLE A1419 iMac 27" Retina 5K (MNED2UA/A)
+          </h3>
+        </div>
+  
+        <div class="card__productCode">
+          <p class="productCode">
+            Код товара: 195434
+          </p>
+        </div>
+  
+        <div class="card__reviewsWithStars">
+          <div class="stars stars--4">
+            <div class="stars_star"></div>
+            <div class="stars_star"></div>
+            <div class="stars_star"></div>
+            <div class="stars_star"></div>
+            <div class="stars_star"></div>
+          </div>
+          <p class="numberOfReviews">Отзывов: 5</p>
+        </div>
+  
+        <div class="card__price">
+          <p class="priceWord">Цена:</p>
+          <p class="priceNumber">69 999 грн</p>
+        </div>
+  
+        <div class="card__buyButton">
+          <a
+            href="#home"
+            class="card__buyButton buyLink"
+            data-qa="hover"
+          >
+            Купить
+          </a>
+        </div>
+      </div>
+
+      <div class="card">
+
+        <img
+            class="card__image"
+            src="images\imac.jpeg"
+            alt="iMac 27 inch"
+        >
+  
+        <div class="card__title">
+          <h3 class="titleWrapper">
+            Моноблок APPLE A1419 iMac 27" Retina 5K (MNED2UA/A)
+          </h3>
+        </div>
+  
+        <div class="card__productCode">
+          <p class="productCode">
+            Код товара: 195434
+          </p>
+        </div>
+  
+        <div class="card__reviewsWithStars">
+          <div class="stars stars--4">
+            <div class="stars_star"></div>
+            <div class="stars_star"></div>
+            <div class="stars_star"></div>
+            <div class="stars_star"></div>
+            <div class="stars_star"></div>
+          </div>
+          <p class="numberOfReviews">Отзывов: 5</p>
+        </div>
+  
+        <div class="card__price">
+          <p class="priceWord">Цена:</p>
+          <p class="priceNumber">69 999 грн</p>
+        </div>
+  
+        <div class="card__buyButton">
+          <a
+            href="#home"
+            class="card__buyButton buyLink"
+            data-qa="card-hover"
+          >
+            Купить
+          </a>
+        </div>
+      </div>
+
+      <div class="card">
+
+        <img
+            class="card__image"
+            src="images\imac.jpeg"
+            alt="iMac 27 inch"
+        >
+  
+        <div class="card__title">
+          <h3 class="titleWrapper">
+            Моноблок APPLE A1419 iMac 27" Retina 5K (MNED2UA/A)
+          </h3>
+        </div>
+  
+        <div class="card__productCode">
+          <p class="productCode">
+            Код товара: 195434
+          </p>
+        </div>
+  
+        <div class="card__reviewsWithStars">
+          <div class="stars stars--4">
+            <div class="stars_star"></div>
+            <div class="stars_star"></div>
+            <div class="stars_star"></div>
+            <div class="stars_star"></div>
+            <div class="stars_star"></div>
+          </div>
+          <p class="numberOfReviews">Отзывов: 5</p>
+        </div>
+  
+        <div class="card__price">
+          <p class="priceWord">Цена:</p>
+          <p class="priceNumber">69 999 грн</p>
+        </div>
+  
+        <div class="card__buyButton">
+          <a
+            href="#home"
+            class="card__buyButton buyLink"
+            data-qa="hover"
+          >
+            Купить
+          </a>
+        </div>
+      </div>
+
+      <div class="card">
+
+        <img
+            class="card__image"
+            src="images\imac.jpeg"
+            alt="iMac 27 inch"
+        >
+  
+        <div class="card__title">
+          <h3 class="titleWrapper">
+            Моноблок APPLE A1419 iMac 27" Retina 5K (MNED2UA/A)
+          </h3>
+        </div>
+  
+        <div class="card__productCode">
+          <p class="productCode">
+            Код товара: 195434
+          </p>
+        </div>
+  
+        <div class="card__reviewsWithStars">
+          <div class="stars stars--4">
+            <div class="stars_star"></div>
+            <div class="stars_star"></div>
+            <div class="stars_star"></div>
+            <div class="stars_star"></div>
+            <div class="stars_star"></div>
+          </div>
+          <p class="numberOfReviews">Отзывов: 5</p>
+        </div>
+  
+        <div class="card__price">
+          <p class="priceWord">Цена:</p>
+          <p class="priceNumber">69 999 грн</p>
+        </div>
+  
+        <div class="card__buyButton">
+          <a
+            href="#home"
+            class="card__buyButton buyLink"
+            data-qa="hover"
+          >
+            Купить
+          </a>
+        </div>
+      </div>
+
+      <div class="card">
+
+        <img
+            class="card__image"
+            src="images\imac.jpeg"
+            alt="iMac 27 inch"
+        >
+  
+        <div class="card__title">
+          <h3 class="titleWrapper">
+            Моноблок APPLE A1419 iMac 27" Retina 5K (MNED2UA/A)
+          </h3>
+        </div>
+  
+        <div class="card__productCode">
+          <p class="productCode">
+            Код товара: 195434
+          </p>
+        </div>
+  
+        <div class="card__reviewsWithStars">
+          <div class="stars stars--4">
+            <div class="stars_star"></div>
+            <div class="stars_star"></div>
+            <div class="stars_star"></div>
+            <div class="stars_star"></div>
+            <div class="stars_star"></div>
+          </div>
+          <p class="numberOfReviews">Отзывов: 5</p>
+        </div>
+  
+        <div class="card__price">
+          <p class="priceWord">Цена:</p>
+          <p class="priceNumber">69 999 грн</p>
+        </div>
+  
+        <div class="card__buyButton">
+          <a
+            href="#home"
+            class="card__buyButton buyLink"
+            data-qa="hover"
+          >
+            Купить
+          </a>
+        </div>
+      </div>
+
+      <div class="card">
+
+        <img
+            class="card__image"
+            src="images\imac.jpeg"
+            alt="iMac 27 inch"
+        >
+  
+        <div class="card__title">
+          <h3 class="titleWrapper">
+            Моноблок APPLE A1419 iMac 27" Retina 5K (MNED2UA/A)
+          </h3>
+        </div>
+  
+        <div class="card__productCode">
+          <p class="productCode">
+            Код товара: 195434
+          </p>
+        </div>
+  
+        <div class="card__reviewsWithStars">
+          <div class="stars stars--4">
+            <div class="stars_star"></div>
+            <div class="stars_star"></div>
+            <div class="stars_star"></div>
+            <div class="stars_star"></div>
+            <div class="stars_star"></div>
+          </div>
+          <p class="numberOfReviews">Отзывов: 5</p>
+        </div>
+  
+        <div class="card__price">
+          <p class="priceWord">Цена:</p>
+          <p class="priceNumber">69 999 грн</p>
+        </div>
+  
+        <div class="card__buyButton">
+          <a
+            href="#home"
+            class="card__buyButton buyLink"
+            data-qa="hover"
+          >
+            Купить
+          </a>
+        </div>
+      </div>
+
+      <div class="card">
+
+        <img
+            class="card__image"
+            src="images\imac.jpeg"
+            alt="iMac 27 inch"
+        >
+  
+        <div class="card__title">
+          <h3 class="titleWrapper">
+            Моноблок APPLE A1419 iMac 27" Retina 5K (MNED2UA/A)
+          </h3>
+        </div>
+  
+        <div class="card__productCode">
+          <p class="productCode">
+            Код товара: 195434
+          </p>
+        </div>
+  
+        <div class="card__reviewsWithStars">
+          <div class="stars stars--4">
+            <div class="stars_star"></div>
+            <div class="stars_star"></div>
+            <div class="stars_star"></div>
+            <div class="stars_star"></div>
+            <div class="stars_star"></div>
+          </div>
+          <p class="numberOfReviews">Отзывов: 5</p>
+        </div>
+  
+        <div class="card__price">
+          <p class="priceWord">Цена:</p>
+          <p class="priceNumber">69 999 грн</p>
+        </div>
+  
+        <div class="card__buyButton">
+          <a
+            href="#home"
+            class="card__buyButton buyLink"
+            data-qa="hover"
+          >
+            Купить
+          </a>
+        </div>
+      </div>
+
+      <div class="card">
+
+        <img
+            class="card__image"
+            src="images\imac.jpeg"
+            alt="iMac 27 inch"
+        >
+  
+        <div class="card__title">
+          <h3 class="titleWrapper">
+            Моноблок APPLE A1419 iMac 27" Retina 5K (MNED2UA/A)
+          </h3>
+        </div>
+  
+        <div class="card__productCode">
+          <p class="productCode">
+            Код товара: 195434
+          </p>
+        </div>
+  
+        <div class="card__reviewsWithStars">
+          <div class="stars stars--4">
+            <div class="stars_star"></div>
+            <div class="stars_star"></div>
+            <div class="stars_star"></div>
+            <div class="stars_star"></div>
+            <div class="stars_star"></div>
+          </div>
+          <p class="numberOfReviews">Отзывов: 5</p>
+        </div>
+  
+        <div class="card__price">
+          <p class="priceWord">Цена:</p>
+          <p class="priceNumber">69 999 грн</p>
+        </div>
+  
+        <div class="card__buyButton">
+          <a
+            href="#home"
+            class="card__buyButton buyLink"
+            data-qa="hover"
+          >
+            Купить
+          </a>
+        </div>
+      </div>
+    </main>
   </body>
 </html>
